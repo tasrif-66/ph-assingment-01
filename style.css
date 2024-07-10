@@ -4,27 +4,57 @@
 box-sizing: border-box;
 margin: 0;
 padding: 0;
+font-family: "Azeret Mono";
 }
 
-body{
-  font-family: "Azeret Mono";
-}
+
 /* banner container start here */
 
 .container{
-width: 1280px;
-height: 650px;
-margin-left: 0;
-margin-right: 0;
-top: 45px , px;
+max-width: 100%;
+height: 100vh;
+
+margin: 0 auto;
+background-image: url(./assets/Hero-bg.png);
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .background-png{
  width: 80%;
  height: 75%;
-
 }
 
+.group-png{
+  width: 240.28px;
+  height: 240px;
+}
+
+.container-div{
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  
+}
+
+.container-header{
+  text-align: center;
+}
+.my-target{
+  text-align: center;
+}
+.contect-button{
+  background-color: #0D1321;
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+
+}
 
 
 /* banner container end here */
