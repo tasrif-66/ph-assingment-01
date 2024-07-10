@@ -57,12 +57,44 @@ align-items: center;
 }
 /* banner container end here */
 
+ /* section 'Why Web Development??' start */
+
 .Why-Web-Development{
   max-width: 100%;
   padding: 48px;
 margin: 20px 25px;
 border: 2px solid red;
+background-color: rgba(13, 19, 33, 0.02);
 display: flex;
 flex-direction: column;
 
 }
+.why-web-dev{
+ text-align: center;
+ padding-top: 30px;
+ padding-bottom: 30px;
+ background-color: white;
+}
+.descrip-section-one{
+  display: flex;
+  background-color: white;
+  
+}
+.descrip-section-two{
+  display: flex;
+  flex-direction: row;
+   background-color: white;
+}
+.descrip-section-three{
+  display: flex;
+  flex-direction: row-reverse;
+   background-color: white;
+}
+.lear-nmore-btn{
+  background-color: white;
+  color: rgb(0, 0, 0);
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+ /* section 'Why Web Development??' end here */
