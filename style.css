@@ -76,25 +76,47 @@ flex-direction: column;
  background-color: white;
 }
 .descrip-section-one{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
   display: flex;
   background-color: white;
   
 }
+
+.descrip-section-one-hpbtn{
+  width: 50%;
+
+}
+.descrip-section-one-img{
+  padding-left: 200px;
+}
 .descrip-section-two{
+   margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
   display: flex;
   flex-direction: row;
    background-color: white;
 }
 .descrip-section-three{
+   margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
   display: flex;
   flex-direction: row-reverse;
    background-color: white;
 }
 .lear-nmore-btn{
+
   background-color: white;
   color: rgb(0, 0, 0);
   padding: 10px 15px;
   font-size: 16px;
   border-radius: 5px;
+  cursor: ;
+}
+.h3-p-btn{
+  margin: 20px 0 15px 5px;
 }
  /* section 'Why Web Development??' end here */
