@@ -53,6 +53,7 @@ align-items: center;
   padding: 10px 15px;
   font-size: 16px;
   border-radius: 5px;
+  cursor: pointer;
 
 }
 /* banner container end here */
@@ -113,9 +114,33 @@ flex-direction: column;
   padding: 10px 15px;
   font-size: 16px;
   border-radius: 5px;
+  cursor: pointer;
   
 }
 .h3-p-btn{
   margin: 20px 0 15px 5px;
 }
  /* section 'Why Web Development??' end here */
+
+ /* My Inspiration section start here */
+
+.section-third{
+  max-width: 100%;
+  padding: 30px 5px 30px 5px;
+
+margin: 20px 25px;
+background-color: rgba(13, 19, 33, 0.02);
+display: flex;
+flex-direction: column ;
+text-align: center ;
+
+}
+.h3-part{
+  margin: 0 0 25px 0;
+}
+.section-third-h3-p{
+  padding: 10px 0 40px 0;
+  
+}
+
+  /* My Inspiration section end here */
